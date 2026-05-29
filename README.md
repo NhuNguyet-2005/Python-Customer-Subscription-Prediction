@@ -18,7 +18,13 @@ Phân tích hành vi mua sắm của 3,900 khách hàng và xây dựng mô hìn
 
 ## 1. Giới thiệu
 
-Chương trình khách hàng thành viên (loyalty program) là công cụ marketing phòng thủ quan trọng để giữ chân khách hàng hiện tại. Tuy nhiên, không phải mọi khách hàng đều có xu hướng đăng ký — việc tiếp cận dàn trải tốn nguồn lực mà hiệu quả thấp.
+Dự án này phân tích dữ liệu hành vi mua sắm của khách hàng nhằm dự đoán khả năng khách hàng đăng ký chương trình thành viên. Thay vì chỉ mô tả dữ liệu mua hàng, dự án tập trung vào việc trả lời một câu hỏi có ý nghĩa kinh doanh rõ ràng:
+
+> Dựa trên hành vi mua sắm hiện tại, doanh nghiệp có thể nhận diện nhóm khách hàng nào có khả năng đăng ký chương trình thành viên cao hơn không?
+
+Trong bối cảnh bán lẻ, chương trình thành viên là một công cụ quan trọng để giữ chân khách hàng, tăng tần suất mua lại và cải thiện giá trị vòng đời khách hàng. Tuy nhiên, nếu doanh nghiệp tiếp cận toàn bộ khách hàng theo cùng một cách, chi phí marketing có thể tăng nhưng tỷ lệ chuyển đổi chưa chắc hiệu quả.
+
+Vì vậy, dự án này sử dụng dữ liệu hành vi mua sắm để xây dựng mô hình phân loại, so sánh hiệu quả giữa nhiều thuật toán học máy và chuyển kết quả mô hình thành các gợi ý hành động cho doanh nghiệp.
 
 **Câu hỏi nghiên cứu:** Dựa vào dữ liệu hành vi mua sắm, liệu có thể dự đoán khách hàng nào sẽ đăng ký chương trình thành viên không? Và những hành vi nào ảnh hưởng quyết định nhất đến quyết định đó?
 
